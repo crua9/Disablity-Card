@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SimpleBlueButton">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/simplebluebutton_bg</item>
+        <item name="android:textColor">@drawable/simplebluebutton_textcolor</item>
+    </style>
+</resources>

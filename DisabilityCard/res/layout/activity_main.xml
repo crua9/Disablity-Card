@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(You do not have permission to walk away with this device and/or go to any other screen on this device, unless if the owner of the device has clearly given permission. This message in red was made by the developer of the app.)"
+        android:textColor="#ff0000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="6dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hi, my name is (your name will show here)"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="I have following disabilities"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/disabilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your Disabilities will show up here"
+               
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="My disability could cause me do the following things."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symphtoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              
+                android:gravity="center"
+                android:text="Your symtomphs will show up here"
+               
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="For more information, please call my advocate. Below is their number"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your advocated number"
+                
+                android:textStyle="bold" />
+
+            <!--
+         <View
+        android:layout_width="18dp"
+        android:layout_height="16dp"/>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/facebook"
+        />
+         <View
+        android:layout_width="16dp"
+        android:layout_height="4dp"/>
+          <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/google"
+        />
+            -->
+            <!--
+    <TextView
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="customize button background"
+	    />
+    
+    <Button
+        android:id="@+id/defaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="button" />
+    
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"/>
+    
+    
+    <TextView
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="FlatButton class extends Button"
+	    />
+    <com.naosim.flatbutton.FlatButton
+        xmlns:naosim="http://naosim.com/naosim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="button"
+        naosim:style_color="#abd" />
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+<TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#00FFFF"
+            android:textColor="#00FFFF"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/menubutton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Menu"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

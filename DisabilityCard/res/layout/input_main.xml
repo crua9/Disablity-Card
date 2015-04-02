@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/inname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              
+                android:gravity="center"
+                android:hint="Your Name"
+                android:inputType="text"
+                android:singleLine="true"
+                
+                />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="2dp" />
+
+          
+
+            <EditText
+                android:id="@+id/indisabilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:gravity="center"
+                android:hint=" Disabilities"
+              
+                />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="2dp" />
+
+            <EditText
+                android:id="@+id/insymphtoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Symptoms" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="2dp" />
+
+            <EditText
+                android:id="@+id/inphonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Advocated number"
+                android:inputType="phone" />
+
+            <!--
+         <View
+        android:layout_width="18dp"
+        android:layout_height="16dp"/>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/facebook"
+        />
+         <View
+        android:layout_width="16dp"
+        android:layout_height="4dp"/>
+          <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/google"
+        />
+            -->
+            <!--
+    <TextView
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="customize button background"
+	    />
+    
+    <Button
+        android:id="@+id/defaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="button" />
+    
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"/>
+    
+    
+    <TextView
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="FlatButton class extends Button"
+	    />
+    <com.naosim.flatbutton.FlatButton
+        xmlns:naosim="http://naosim.com/naosim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="button"
+        naosim:style_color="#abd" />
+            -->
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#00FFFF"
+            android:textColor="#00FFFF"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Submit"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/helpbutton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Help"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
